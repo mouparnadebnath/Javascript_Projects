@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>image gallary</title>
+</head>
+<body>                          
+<img id="gelleryimage"  src="lily.png" alt="image1" >
+<button id="prevbutton">previous</button>
+<button id="nextbutton">next</button>
+</body>
+<script>
+    const gelleryimage=document.getElementById("gelleryimage")
+    const prevbutton=  document.getElementById("prevbutton")
+    const nextbutton=  document.getElementById("nextbutton")
+    const images=["lily.png","rose.png","sunflower.png"]
+    let currentIndex=0
+
+    function showimages(index){
+        gelleryimage.src=images[index]
+    }
+prevbutton.addEventListener("click",()=>{
+    currentIndex=(currentIndex - 1 + images.length) % images.length;
+    showimages(currentIndex)
+})
+nextbutton.addEventListener("click",()=>{
+    currentIndex=(currentIndex + 1) % images.length;
+    showimages(currentIndex);
+})
+showimages(currentIndex)
+
+</script>
+</html>

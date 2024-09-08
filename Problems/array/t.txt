@@ -1,0 +1,43 @@
+## Medium to Difficult Array Questions
+
+### Medium Level
+
+1. **Find the maximum product subarray:** Given an integer array, find the contiguous subarray which has the largest product.
+2. **Trapping rain water:** Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+3. **Best time to buy and sell stock:** You are given an array prices where prices[i] is the price of a given stock on the ith day. You want to maximize your profit by choosing a single day to buy one stock and choosing a different day in the future to sell that stock.
+4. **Container with most water:** Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it is able to trap after raining.
+5. **3Sum:** Given an integer array nums, return all the triplets [nums[i], nums[j], nums[k]] such that nums[i] + nums[j] + nums[k] == 0.
+6. **Merge intervals:** Given an array of intervals where intervals[i] = [start_i, end_i], merge all overlapping intervals, and return an array of the non-overlapping intervals that cover all the intervals in the input.
+
+### Difficult Level
+
+1. **Longest increasing subsequence:** Given an integer array nums, return the length of the longest strictly increasing subsequence.
+2. **Minimum window substring:** Given two strings s and t of lengths m and n respectively, return the minimum window substring of s such that every character in t (including duplicates) is included in s.
+3. **Word search:** Given an m x n grid of characters and a string word, return true if the word exists in the grid.
+4. **Sudoku solver:** Write a function to solve a Sudoku puzzle.
+5. **N-queens:** The n-queens ## More Medium to Difficult Array Questions
+
+### Medium Level
+
+7. **Group Anagrams:** Given an array of strings strs, group the anagrams together.
+8. **Subarray Sum Equals K:** Given an array of integers nums and an integer k, return the total number of continuous subarrays whose sum equals to k.
+9. **Product of Array Except Self:** Given an integer array nums, return an array answer such that answer[i] is equal to the product of all elements of nums except nums[i].
+10. **Spiral Matrix:** Given an m x n matrix, return all elements of the matrix in spiral order.
+
+### Difficult Level
+7. **Longest Valid Parentheses:** Given a string s containing '(' and ')' brackets, find the length of the longest valid parentheses substring.
+8. **Candy:** There are n children standing in a line. Each child is assigned a rating. You are giving candies to these children subjected to the following requirements:
+    * Each child must have at least one candy.
+    * Children with a higher rating can get more candies than their neighbors.
+    * Return the minimum number of candies you need to distribute to the children.
+9. **Jump Game:** Given an array of non-negative integers nums, you are initially positioned at the first index of the array.
+    Each element in the array represents your maximum jump length at that position.
+    Determine if you are able to reach the last index.
+10. **Palindrome Partitioning:** Given a string s, partition s such that every substring of the partition is a palindrome. Return all possible palindrome partitioning of s.
+
+puzzle is the problem of placing n queens on an n×n chessboard such that no two queens attack each other.
+6. **Largest rectangle in histogram:** Given an array of integers heights representing the histogram's bar height where each bar's width is 1, return the area of the largest rectangle in the histogram.
+
+
+
+

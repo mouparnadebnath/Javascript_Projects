@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>countdown timer</title>
+    <style>
+        #timer{
+            font-size: 800px;
+            color: rgb(255, 0, 149);
+            font-family: cursive;
+        }
+    </style>
+</head>
+<body>
+    <div id="timer">100</div>
+</body>
+<script>
+    const timer=document.getElementById("timer")
+    let time=100
+function updatetimer() {
+    if (time>0) {
+        time--
+        
+        timer.textContent=time
+    }
+}
+setInterval(updatetimer,1000)
+
+</script>
+</html>

@@ -1,0 +1,134 @@
+.slide {
+    width: 50%;
+    height: 50%;
+    background-color: #eb5757;
+    color: aliceblue;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #303f33; */
+}
+body{
+    background-color: #0e0e0e;
+}
+
+#navbar {
+
+    /* height: 70px; */
+    width: 100%;
+}
+
+#navbar ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color: #20232a;
+    padding: 20px;
+    padding-top: 20px;
+    list-style: none;
+
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: #585858;
+    font-size: 1.5rem;
+    font-family: cursive;
+    font-style: inherit;
+    margin: 100px;
+    font-weight: bold;
+
+}
+
+
+#navbar ul li a:hover {
+color:#25d366;
+text-decoration: underline #25d366 ;
+
+}
+#upper-sec {
+    /* height: 70px; */
+    width: 100%;
+}
+
+#upper-sec ul {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    background-color:   #20232a;
+    /* padding: 20px; */
+    /* padding-top: 45px; */
+    list-style: none;
+
+}
+
+#upper-sec ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.5rem;
+
+    font-style: inherit;
+    /* margin:100px; */
+
+}
+
+.Whatsapp {
+    padding-left: 20px;
+    color: rgb(228, 225, 225);
+    font-size: 2rem;
+    padding-right: 900px;
+    font-weight: bold;
+    font-family: cursive;
+}
+
+.container {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.chatss {
+    border: .5px solid rgb(44, 44, 44);
+    padding: 30px;
+}
+
+.dp {
+    height: 50px;
+    width: 50px;
+    margin: 0;
+    padding: 0;
+    border-radius: 50px;
+    border: .5px solid rgb(180, 180, 180);
+}
+
+.chatss {
+    display: flex;
+
+}
+
+.name {
+    padding-left: 30px;
+font-size: 1.5rem;
+font-weight: bolder;
+font-family: cursive;
+color: #ffffff;
+}
+
+#time{
+    color: white;
+    padding-left: 1050px;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+#notification-icon{
+    width: 20px;
+    height: 20px;
+    color: white;
+    /* background: #25d366; */
+    border: 2px solid #25d366;
+    border-radius: 50px;
+    padding-top: 34px;
+ display: grid;
+ 
+}

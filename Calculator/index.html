@@ -1,0 +1,74 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            background: #130101;
+        }
+
+        button {
+            padding: 5px;
+            font-size: 3rem;
+            margin: 5px;
+            background-color: #f1b7d4;
+            height: 100px;
+            width: 100px;
+            border: 3px solid red;
+            border-radius: 50px;
+        }
+
+        #display {
+            width: 500px;
+            height: 100px;
+            background-color: aliceblue;
+            border-radius: 10px;
+            border: 2px solid blue;
+        }
+
+        #display
+        {
+            margin: auto;
+            display: flex;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <input type="text" id="display" readonly>
+
+
+    <div>
+        <button onclick="addToDisplay('1')">1</button>
+        <button onclick="addToDisplay('2')">2</button>
+        <button onclick="addToDisplay('3')">3</button>
+        <button onclick="addToDisplay('+')">+</button>
+    </div>
+
+    <div>
+        <button onclick="addToDisplay('4')">4</button>
+        <button onclick="addToDisplay('5')">5</button>
+        <button onclick="addToDisplay('6')">6</button>
+        <button onclick="addToDisplay('-')">-</button>
+    </div>
+    <div>
+        <button onclick="addToDisplay('7')">7</button>
+        <button onclick="addToDisplay('8')">8</button>
+        <button onclick="addToDisplay('9')">9</button>
+        <button onclick="addToDisplay('*')">*</button>
+    </div>
+    <div>
+        <button onclick="clearDisplay()">C</button>
+        <button onclick="addToDisplay('0')">0</button>
+        <button onclick="calculate()">=</button>
+        <button onclick="addToDisplay('/')">/</button>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>

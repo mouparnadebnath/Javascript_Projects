@@ -1,0 +1,24 @@
+<!-- 9. Write a function to find the largest number in an array. -->
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <div id="largestnum"></div>
+    <script>
+        const largestelement=document.getElementById("largestnum")
+        const check=(arr)=>{
+            if (arr.length==0) {
+                return undefined
+            }
+let largestnumber=Math.max(...arr)
+largestelement.textContent=`${largestnumber}`
+        }
+        const nums=[4,4,34,556,24,89]
+        check(nums)
+        console.log(check(nums))
+    </script>
+ </body>
+ </html>

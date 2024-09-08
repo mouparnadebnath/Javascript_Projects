@@ -1,0 +1,35 @@
+
+Hard (21-30)
+
+6. Create a function to find the shortest path in a graph.
+7. Write a function to implement the depth-first search algorithm.
+8. Create a function to find the longest substring without repeating characters.
+9. Write a function to implement the breadth-first search algorithm.
+10. Create a function to find the maximum flow in a flow network.
+
+Very Hard (31-40)
+
+1. Write a function to implement the Dijkstra's algorithm.
+2. Create a function to find the longest increasing subsequence.
+3. Write a function to implement the Bellman-Ford algorithm.
+4. Create a function to find the shortest path in a weighted graph.
+5. Write a function to implement the Floyd-Warshall algorithm.
+6. Create a function to find the maximum clique in a graph.
+7. Write a function to implement the topological sort algorithm.
+8. Create a function to find the strongly connected components in a graph.
+9. Write a function to implement the minimum spanning tree algorithm.
+10. Create a function to find the longest cycle in a graph.
+
+Expert (41-50)
+
+1. Write a function to implement the A* algorithm.
+2. Create a function to find the shortest path in a graph with negative weights.
+3. Write a function to implement the dynamic programming algorithm.
+4. Create a function to find the longest common subsequence.
+5. Write a function to implement the greedy algorithm.
+6. Create a function to find the maximum subarray sum.
+7. Write a function to implement the branch and bound algorithm.
+8. Create a function to find the shortest path in a graph with obstacles.
+9. Write a function to implement the genetic algorithm.
+10. Create a function to find the longest path in a graph.
+

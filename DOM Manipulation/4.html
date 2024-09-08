@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic list</title>
+</head>
+<body>
+    <ul id="dynamiclist"></ul>
+    <input type="text" id="newitem" placeholder="New item">
+    <button id="additem">Add item</button>
+</body>
+<script>
+    const dynamiclist=document.getElementById("dynamiclist")
+    const newiteminput=document.getElementById("newitem")
+    const additem=document.getElementById("additem")
+
+    additem.addEventListener("click",()=>{
+        const newitemtext=newiteminput.value
+        if (newitemtext) {
+            const listitem=document.createElement("li")
+            listitem.textContent=newitemtext
+            dynamiclist.appendChild(listitem)
+            newiteminput.value=""
+        }
+    })
+</script>
+</html>

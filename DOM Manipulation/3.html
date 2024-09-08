@@ -1,0 +1,44 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<button id="togglebtn">Toggle Element</button>
+<div id="toggleEle">This is to be toggled</div>
+</body>
+<script>
+    const toggglebtn=document.getElementById("togglebtn")
+    const toggleEle=document.getElementById("toggleEle")
+    let isvisble=true
+
+    toggglebtn.addEventListener("click",()=>{
+        isvisble=!isvisble
+        toggleEle.style.display=isvisble?"block":"none"
+    })
+</script>
+</html>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

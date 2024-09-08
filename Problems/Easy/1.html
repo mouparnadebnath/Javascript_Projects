@@ -1,0 +1,24 @@
+<!-- 7. Write a function to check if a number is even or odd.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="number"></div>
+    <script>
+      const number = document.getElementById("number");
+      const check = (num) => {
+        if (num % 2 === 0) {
+          number.textContent = `${num} is even`;
+          console.log(num);
+        } else {
+          number.textContent = `${num} is odd`;
+        }
+    };
+    check(775);
+    </script>
+  </body>
+</html>

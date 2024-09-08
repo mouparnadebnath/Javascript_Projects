@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown Menu</title>   
+    <style>
+#dropdownContent{
+    display: "none";
+}
+    </style>
+</head>
+<body>
+  <button id="togglebtn">Toggle Dropdown</button>  
+  <ul id="dropdownContent">
+
+      <li> <a href="#">Item 1</a></li>
+      <li> <a href="#">Item 2</a></li>
+      <li><a href="#">Item 3</a></li>
+      
+    </ul>
+</body>
+<script>
+const togglebtn=document.getElementById("togglebtn")
+const dropdownContent=document.getElementById("dropdownContent")
+togglebtn.addEventListener("click",()=>{
+    if (dropdownContent.style.display==="none"||dropdownContent.style.display=== "") {
+        dropdownContent.style.display==="block"
+    } else {
+        dropdownContent.style.display==="none"
+    }
+})
+</script>
+</html>
